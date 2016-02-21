@@ -57,6 +57,15 @@ Error: ENOSPC(DISK量に余りがあるにも関わらず)の場合
 $ npm cache clean
 $ npm i
 
+Error: ERROR in [default] /path/to/project/node_modules/angular2/src/facade/promise.d.ts:1:9
+Cannot re-export name that is not defined in the module.
+この場合は
+
+$ npm i alexeagle/angular#8bfbe4
+解決参考URL: https://github.com/angular/angular/issues/6468
+
+所感: 問題があってもAngularなら解決へのやり取りがすぐGoogleで見つけられるかも(ほぼ英語文献)
+
 ### エラーなく npm i が通るようになったら先に進む
 ```
 
