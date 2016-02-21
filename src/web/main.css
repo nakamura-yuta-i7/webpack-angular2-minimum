@@ -1,0 +1,7 @@
+body {
+	background: RGBA(11, 116, 213, 1);
+	a {
+		color: RGBA(227, 47, 48, 1);
+		font-weight: 900;
+	}
+}
